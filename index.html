@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=/, initial-scale=1.0">
+    <title>Entrega-JS</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1> S3-27 | 🏁 Entrega - Javascript: Primeiros Passos </h1>
+  </header>
+
+  <main>
+    <!-- primeiro -->
+     <section>
+        <h2>Primeiro Exercício </h2>
+        <p>
+          Escreva um programa que, receba dois números inteiros.
+          Alerte em tela o maior número, e a diferença entre os números em formato 
+          de string(texto).Os valores recebidos devem ser convertidos para inteiro.
+        </p>
+        <input type="number" id="caixa1_exercício_1">
+        <input type="number" id="caixa2_exercício_1">
+        <input type="button" onclick="clicar1()" value="Iniciar" id="button_exercício_1">
+         <h3 id="resu_1">O RESULTADO VAI APARECER AQUI !</h3>
+     </section>
+     <!-- Segundo -->
+     <section>
+        <h2>Segundo Exercício </h2>
+        <p>
+          Escreva um programa que, receba dois números. ⁠Alerte em tela qual o maior valor recebido.
+          Caso os valores recebidos sejam iguais, alerte a seguinte mensagem: "Números iguais".
+        </p>
+        <input type="number" id="caixa1_exercício_2">
+        <input type="number" id="caixa2_exercício_2">
+        <input type="button" onclick="clicar2()" value="Iniciar" id="button_exercício_1">
+         <h3 id="resu_2">O RESULTADO VAI APARECER AQUI !</h3>
+     </section>
+    <!-- Terceiro -->
+     <section>
+        <h2>Terceiro Exercício </h2>
+        <p>
+          Escreva um programa que, leia o salário de um trabalhador e o valor da prestação de um empréstimo.
+          Se a prestação for maior que 30% do salário imprima: "Empréstimo não concedido", caso contrario imprima: "Empréstimo concedido".
+          ⁠Dica: Avalie quanto é 30% do salário e depois verifique se o valor do empréstimo é maior ou menor.
+        </p>
+        <input type="number" placeholder="Seu salário" id="caixa1_exercicio_3">
+        <input type="number" placeholder="Valor das parcelas" id="caixa2_exercicio_3">
+        <input type="button" onclick="clicar3()" value="Iniciar" id="button_exercicio_3">
+         <h3 id="resu_3">O RESULTADO VAI APARECER AQUI !</h3>
+     </section>
+     <!-- Quarto -->
+     <section>
+        <h2>Quarto Exercício </h2>
+        <p>
+            Escreva um programa que verifique se um número é divisível por 3 ou 5, mas atenção, caso o valor recebido seja divisível por 3 e 5, alerte: "Valor inválido".
+            Se o número for divisível por 3, alerte: "Valor divisível por 3".  
+            Se o número for divisível por 5, alerte: "Valor divisível por 5".
+            Se o número informado não for inválido e nem divisível por 3 ou 5, verifique se o valor é par ou ímpar e alerte em tela.
+        </p>
+        <input type="number" placeholder="Primeiro Numero" id="caixa1_exercicio_4">
+        <input type="button" onclick="clicar4()" value="Iniciar">
+         <h3 id="resu_4">O RESULTADO VAI APARECER AQUI !</h3>
+     </section>
+     <!-- Quinto -->
+     <section>
+        <h2>Quinto Exercício </h2>
+        <p>
+          Escreva um programa que leia um número inteiro de 1 a 7 e informe o dia da semana
+          correspondente, sendo domingo, o dia de número 1.
+          Se o número não corresponder a um dia da semana, alerte uma mensagem de erro.
+        </p>
+        <input type="number" placeholder="Digite um Numero" id="caixa1_exercicio_5">
+        <input type="button" onclick="clicar5()" value="Iniciar">
+         <h3 id="resu_5">O RESULTADO VAI APARECER AQUI !</h3>
+     </section>
+     <!-- Sexto -->
+     <section>
+        <h2>Sexto Exercício </h2>
+        <p>
+          Escreva um programa que calcule o novo salário dos funcionários com base no percentual de reajuste.
+          O programa deve ler, o salário mensal do funcionário e o percentual de reajuste a ser atribuído.
+          Alertar o valor do novo salário.
+          O reajuste é de até 5%.
+        </p>
+        <p>
+          É permitida a entrada de valor percentual com casos decimais.
+
+          O alerte a seguinte frase: "O salário do funcionário corrigido é de: x"
+          Exemplo:
+          Entrada: 1100.00 e 2.5
+          Saída: "O salário do funcionário corrigido é de: R$1127.50"
+        </p>
+        <input type="number" placeholder="Digite um Numero" id="caixa1_exercicio_6">
+        <input type="number" placeholder="Digite um Numero" id="caixa2_exercicio_6">
+        <input type="button" onclick="clicar6()" value="Iniciar">
+        <h3 id="resu_6">O RESULTADO VAI APARECER AQUI !</h3>
+     </section>
+     <!-- Setimo -->
+     <section>
+        <h2>Setimo Exercício </h2>
+        <p>
+            Escreva um programa que realiza a conversão de dólar($) para real(R$).
+            Leia o valor em dólar e a cotação atual.
+            Realiza a conversão do valor, multiplicando a valor em dólar pelo valor da cotação, alerte quanto em real equivale o valor em dólar informado.
+            Alerte o valor total da conversão em real, da seguinte maneira: "$x,xx é equivalente a R$y,yy, tendo xy como cotação."
+        </p>
+        <input type="number" placeholder="Digite um Numero" id="caixa1_exercicio_7">
+        <input type="number" placeholder="Digite um Numero" id="caixa2_exercicio_7">
+        <input type="button" onclick="clicar7()" value="Iniciar">
+        <h3 id="resu_7">O RESULTADO VAI APARECER AQUI !</h3>
+     </section>
+     <!-- Oitavo -->
+     <section>
+        <h2>oitavo Exercício </h2>
+        <p>
+            Uma Cia de pulverização utiliza avião para pulverizar lavouras.
+            Os custos de pulverização dependem do tipo de praga e da área a ser contratada conforme a tabela:
+        </p>
+         <p>Tipo 1 – ervas daninhas R$ 50,00 por acre</p>
+         <p>   Tipo 2 – gafanhotos R$ 100,00 por acre </p>
+         <p>Tipo 3 – broca R$ 150,00 por acre </p> 
+         <p> Tipo 4 – todos acima R$ 250,00 por acre.</p>
+        
+        <input type="button" onclick="clicar8()" value="Iniciar">
+        <h3 id="resu_8">O RESULTADO VAI APARECER AQUI !</h3>
+        
+     </section>
+     <!-- Nono -->
+     <section>
+
+        <h2>Nono Exercício </h2>
+        <p>
+            Efetuar o cálculo da quantidade de litros de combustível gasta em uma viagem, utilizando um automóvel que faz 12 quilômetros por litro.
+            Para obter o cálculo, o usuário deve fornecer o tempo gasto (variável TEMPO) e a velocidade (variável VELOCIDADE) durante a viagem.
+            Desta forma, será possível obter a distância percorrida com a fórmula
+            DISTÂNCIA = TEMPO * VELOCIDADE.
+            A partir do valor da distância, basta calcular a quantidade de litros de combustível utilizada na viagem com a fórmula.
+            ⁠LITROS_USADOS = DISTÂNCIA / 12. 
+            O programa deve alertar os valores da: velocidade, tempo gasto na viagem, a distância percorrida e a quantidade de litros utilizada na viagem.
+        </p>
+        <input type="button" onclick="clicar9()" value="Iniciar">
+        <h3 id="resu_8">O RESULTADO VAI APARECER AQUI !</h3>
+     </section>
+     <!-- Décimo -->
+     <section>
+        <h2>Décimo Exercício </h2>
+        <p>
+          Escreva um programa que leia o valor(variável), a taxa(variável) e o tempo(variável) de atraso de uma prestação e efetue o cálculo referente ao atraso da fatura, para obter o valor corrigido.
+          Utilizando a fórmula.
+          ⁠PRESTAÇÃO = VALOR + (VALOR* (TAXA/100) * TEMPO).
+          Alerte o valor da prestação. Caso o usuário entre com o tempo 0 ou com casa decimal. Alerte: "Valor inválido o tempo de atraso deve ser em dias."
+        </p>
+        <input type="button" onclick="clicar10()" value="Iniciar">
+        <h3 id="resu_10">O RESULTADO VAI APARECER AQUI !</h3>
+     </section>
+  </main>
+</body>
+</html>
